@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Kick Me</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700i&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <div class="page">
+        <h1 class="header">Kick Me</h1>
+        <img class="app-icon" src="/images/app_icon.png" alt="App icon">
+        <h2 class="sub">Available for download:</h2>
+        <div class="app-links-container">
+            <a class="store-link google" target="_blank" href='https://play.google.com/store/apps/details?id=no.wunderapps.kickme'>
+                <img alt='Get it on Google Play' src="/images/download_google_play.png"/>
+            </a>
+            <!-- <a class="store-link apple" target="_blank" href="https://apps.apple.com/us/app/plopp/id6526498808">
+                <img src="/images/download_app_store.svg" alt="Download on the App Store">
+            </a> -->
+        </div>
+        <h3 class="links-head">Links:</h3>
+        <div class="links">
+            <a href="/privacy_policy.html" class="link">Privacy policy</a>
+            <a href="/terms_conditions.html" class="link">Terms and conditions</a>
+            <a href="/support.html" class="link">Support</a>
+        </div>
+    </div>
+</body>
+
+<style>
+    :root {
+        font-family: 'Roboto Mono', monospace;
+        background-color: #e6e3a7;
+        padding: 24px;
+    }
+    .page {
+        margin: auto;
+    }
+    h1.header {
+        color: #000000;
+        text-align: center;
+        font-weight: 700;
+        font-style: italic;
+        font-size: 42px;
+    }
+    img.app-icon {
+        display: block;
+        margin: auto;
+        width: 100%;
+        max-width: 150px;
+        min-width: 100px;
+        height: auto;
+        border: 8px solid black;
+        border-radius: 25px;
+    }
+    h2.sub {
+        color: #000000;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    .app-links-container {
+        max-width: 200px;
+        margin: auto;
+    }
+
+    a.store-link {
+        display: block;
+    }
+
+    a.store-link.apple {
+        margin-top: 24px;
+    }
+
+    .store-link > img {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+
+    .links-head {
+        color: #000000;
+        margin: 78px auto 16px auto;
+        text-align: center;
+    }
+
+    .links {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    a.link {
+        color: #000000;
+    }
+
+    @media screen and (min-width: 450px) {
+    h1.header {
+        font-size: 72px;
+    }
+    img.app-icon {
+        max-width: 300px;
+        min-width: 150px;
+    }
+}
+</style>
+</html> 
